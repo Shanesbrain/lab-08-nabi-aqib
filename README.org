@@ -1,0 +1,47 @@
+* Spring 2020 - Lab 06
+
+* Last name: Nabi
+
+* First name: Aqib
+
+* GitHub username: anabihunter23
+
+* Notes:
+
+* General instructions:
+- Fill in your name and GitHub username on top.
+- Use the Notes section to add any notes to the instructor.
+- The main lab description can be found here:
+  https://maryash.github.io/135/labs/lab_08.html
+- *DO NOT ADD RESULTANT IMAGE FILES* - only add any source image
+  file(s) you use.
+
+* Daedalus specific instructions (changes from main spec):
+
+This lab *will not* require unit tests using docctests. Instead,
+create an image or images for each task. Name each image
+appropriately:  taska.pgm, taskb.pgm etc.
+
+You will have to set up the Makefile to create an executable name main
+(remember, no required unit tests for this lab).
+
+In this rep, you will find two files: *imagehelpers.cpp* and
+*imagehelpers.h*. These contain the routintes *readImage* and
+*writeImage* as described in the main lab file but with one big
+difference. The versions provided  for you accept an additional
+parameter - string representing the filename. See *sample-main.cpp*
+and *sample-Makefile* for sample use.
+
+* Extra files
+
+- imagehelpers.cpp, imagehelpers.h - functions to load and save
+  images. Similar to what is provided in the main lab but accepts a
+  filename so you can load and save different images.
+
+- sample-main.cpp sample-Makefile - sample to show the use of
+  imagehelpers. Build using ~make sample-Makefile~.
+
+- inImage.pgm - sample image to start with.
+
+
+sample-main.cpp
